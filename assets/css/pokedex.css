@@ -150,16 +150,34 @@
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
+    .black{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .detailSelect{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    }
+    .black{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    
 }

@@ -1,5 +1,14 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
+const lua = document.getElementsByClassName('ovo')
+
+
+//quando click no pokemon ir para a pagina 
+const verDetalhes = document.getElementById('ovo')
+const link =  'http://127.0.0.1:5500/assets/pages/itemSelect.html'
+
+
+
 
 const maxRecords = 151
 const limit = 10
@@ -7,19 +16,25 @@ let offset = 0;
 
 function convertPokemonToLi(pokemon) {
     return `
-        <li class="pokemon ${pokemon.type}">
+    <div class= ovo>
+        <li class="pokemon ${pokemon.type}" id="">
+       
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
-
-            <div class="detail">
+            
+        
+            <div class="detail" id="ovo">
                 <ol class="types">
                     ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
                 </ol>
 
-                <img src="${pokemon.photo}"
+                <img   src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
+           
+            
         </li>
+        </div>
     `
 }
 
@@ -45,3 +60,7 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+
+//quando click no pokemon ir para a pagina 
+

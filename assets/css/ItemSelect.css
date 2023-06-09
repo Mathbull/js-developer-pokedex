@@ -1,0 +1,133 @@
+
+/* BOTÃO PARA VOLTAR*/
+.vlt a{
+    text-decoration: none;
+    color: #fff;
+}
+.vlt{
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+}
+
+/* DIV CONTENDO NOME, TIPO E IMG DO POKEMON  */
+.back{
+    padding: 1rem;  
+}
+.as{
+    padding: 0;
+    list-style: none;
+    margin: 0;    
+}
+.nameAndTypes ol{
+    display: flex ;
+    list-style: none;
+}
+.select{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px ;
+    padding: 0;
+    margin: 2rem 0;
+}
+.select div:nth-child(n +3){
+    display: grid;
+    grid-row: 3/ 3;
+}
+.type{
+    margin: 0 1rem;
+}
+.name{
+    font-size: 2rem;
+}
+.numero{
+    text-align: right;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+}
+
+/* DIV CONTENDO AS OPÇÃO E OS DETALHES DE CADA POKEMON  */
+.detailSelect {
+  margin-top: -40px;
+   background-color: #fff;
+   color: black;
+   border-radius: 2rem 2rem 0 0 ;
+    padding: 1rem;
+    height: 64.5vh;
+ 
+}
+.detailSelect  ul {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    
+   
+
+  
+}
+.detailSelect ul li{
+list-style: none;
+
+}
+
+
+.pokelista{
+    padding: 0;
+    display: flex;
+    gap: 2rem ;
+    justify-content: center;
+    list-style: none;
+   
+}
+.pokelista ul{
+    padding: 0;
+}
+.typeSelect li{
+    color: #fff;
+    margin: .25rem ;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center; 
+}
+
+.space{
+    padding: 1rem 0;
+    list-style: none;
+    margin: 0;;
+}
+.space li{
+    padding: .2em 0;
+}
+.selctDetail ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+   gap: 1.5rem;
+   flex-wrap: wrap;
+
+}
+
+.other{
+    display: none;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.linkSelect{
+    text-decoration: none;
+}
+
+.select0{
+    background-color: blueviolet;
+}
