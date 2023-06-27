@@ -1,4 +1,3 @@
 # Trilha JS Developer - Pokedex
 
-
-dsdsdfsfsdffdsfsdfdsfsdfsdfsdfsdfsdfsdfdsfdfdsfd
+Criação de portfolio/CV, utilizando HTML, CSS, JS, API e JSON.
